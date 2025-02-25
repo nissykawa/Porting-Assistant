@@ -1,0 +1,55 @@
+* Created by KLayout
+
+* cell Op8_16_rev1
+* pin In+
+* pin In-
+* pin Ibias1
+* pin Vdd
+* pin Voutput
+* pin Vss
+.SUBCKT Op8_16_rev1 1 2 5 6 10 16
+* net 1 In+
+* net 2 In-
+* net 5 Ibias1
+* net 6 Vdd
+* net 10 Voutput
+* net 16 Vss
+* device instance $1 r0 *1 55.5,100.5 NMOS
+M$1 12 1 11 16 NMOS L=2U W=40U AS=80P AD=80P PS=84U PD=84U
+* device instance $2 m90 *1 67.4,100.5 NMOS
+M$2 13 2 11 16 NMOS L=2U W=40U AS=80P AD=80P PS=84U PD=84U
+* device instance $3 m90 *1 17.1,18.1 NMOS
+M$3 4 3 16 16 NMOS L=5U W=10U AS=20P AD=20P PS=24U PD=24U
+* device instance $4 r0 *1 28,18.1 NMOS
+M$4 7 3 16 16 NMOS L=5U W=10U AS=20P AD=20P PS=24U PD=24U
+* device instance $5 m90 *1 105,23 NMOS
+M$5 8 8 16 16 NMOS L=3U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $6 r0 *1 113.5,23 NMOS
+M$6 9 8 16 16 NMOS L=3U W=20U AS=40P AD=40P PS=44U PD=44U
+* device instance $7 m90 *1 57.2,35.9 NMOS
+M$7 3 3 4 16 NMOS L=2U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $11 r0 *1 64.7,36 NMOS
+M$11 11 3 7 16 NMOS L=2U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $15 r0 *1 159.2,19.35 NMOS
+M$15 10 9 16 16 NMOS L=1U W=25U AS=37.5P AD=37.5P PS=43.5U PD=43.5U
+* device instance $17 r0 *1 140.5,127.1 PMOS
+M$17 10 5 6 6 PMOS L=5U W=90U AS=120P AD=120P PS=128U PD=128U
+* device instance $20 r0 *1 24,127 PMOS
+M$20 15 5 6 6 PMOS L=5U W=30U AS=60P AD=60P PS=64U PD=64U
+* device instance $21 m90 *1 13.1,127 PMOS
+M$21 14 5 6 6 PMOS L=5U W=30U AS=60P AD=60P PS=64U PD=64U
+* device instance $22 r0 *1 121,127.1 PMOS
+M$22 12 5 6 6 PMOS L=5U W=30U AS=60P AD=60P PS=64U PD=64U
+* device instance $23 r0 *1 97.7,127.1 PMOS
+M$23 13 5 6 6 PMOS L=5U W=30U AS=60P AD=60P PS=64U PD=64U
+* device instance $24 r0 *1 22.6,82.9 PMOS
+M$24 3 5 15 17 PMOS L=2U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $28 r0 *1 121.4,84.7 PMOS
+M$28 9 5 12 19 PMOS L=2U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $32 m90 *1 15,82.9 PMOS
+M$32 5 5 14 17 PMOS L=2U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $36 r0 *1 87.5,84 PMOS
+M$36 8 5 13 18 PMOS L=2U W=100U AS=125P AD=125P PS=135U PD=135U
+* device instance $40 r270 *1 136.8,36.6 CAP
+C$40 10 9 1.04e-12 CAP
+.ENDS Op8_16_rev1

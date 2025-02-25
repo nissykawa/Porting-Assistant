@@ -1,0 +1,27 @@
+* C:\Users\swear\Documents\Seafile\LSI‹•zv\PTS06_2024_8\Op8_16\opamp8_16.asc
+M5 N001 In+ N006 Vss nch l=2u w=40u
+M6 N002 In_ N006 Vss nch l=2u w=40u
+M12 N008 Ibias1 N002 Vdd pch l=2u w=100u
+M11 N002 Ibias1 Vdd Vdd pch l=5u w=30u
+M13 N001 Ibias1 Vdd Vdd pch l=5u w=30u
+M14 N005 Ibias1 N001 Vdd pch l=2u w=100u
+M3 N004 Ibias1 Vdd Vdd pch l=5u w=30u
+M4 N007 Ibias1 N004 Vdd pch l=2u w=100u
+M1 N003 Ibias1 Vdd Vdd pch l=5u w=30u
+M2 Ibias1 Ibias1 N003 Vdd pch l=2u w=100u
+M9 N006 N007 N010 Vss nch l=2u w=100u
+M10 N010 N007 Vss Vss nch l=5u w=10u
+M7 N007 N007 N009 Vss nch l=2u w=100u
+M8 N009 N007 Vss Vss nch l=5u w=10u
+M17 Voutput Ibias1 Vdd Vdd pch l=5u w=90u
+M15 N008 N008 Vss Vss nch l=3u w=20u
+M16 N005 N008 Vss Vss nch l=3u w=20u
+M18 Voutput N005 Vss Vss nch l=1u w=25u
+C1 Voutput N005 1.04p
+R1 Ibias1 Vss 178k
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\swear\AppData\Local\LTspice\lib\cmp\standard.mos
+.backanno
+.end
+

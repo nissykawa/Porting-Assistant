@@ -1,0 +1,5 @@
+---
+target: Op8_22_V2_PTS06
+reference: lvs_work/Op8_22_V2_PTS06_reference.cir.txt
+netlist: C:/Users/swear/Documents/Seafile/LSI開発/PTS06_2024_8/Op8_22/op8_22_v2.net
+schematic: C:/Users/swear/Documents/Seafile/LSI開発/PTS06_2024_8/Op8_22/op8_22_v2.asc

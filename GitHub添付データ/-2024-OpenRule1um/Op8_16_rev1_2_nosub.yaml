@@ -1,0 +1,5 @@
+---
+target: Op8_16_rev1_2_nosub
+reference: lvs_work/Op8_16_rev1_2_nosub_reference.cir.txt
+netlist: C:/Users/seijirom/Seafile/LSI開発/PTS06_2023_8/Op8_16/Opamp3_tsb.net
+schematic: C:/Users/seijirom/Seafile/LSI開発/PTS06_2023_8/Op8_16/Opamp3_tsb.asc

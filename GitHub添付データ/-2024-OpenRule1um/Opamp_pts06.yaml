@@ -1,0 +1,5 @@
+---
+target: Opamp_pts06
+reference: lvs_work/Opamp_pts06_reference.cir.txt
+netlist: "/Users/kota/Opamp/Opampnew/Opamp3_tsb.net"
+schematic: "/Users/kota/Opamp/Opampnew/Opamp3_tsb.asc"

@@ -1,0 +1,5 @@
+---
+target: Op8_22_V2
+reference: lvs_work/Op8_22_V2_reference.cir.txt
+netlist: C:/Users/seiji/Seafile/PTS06_2024_8/Op8_22/op8_22_tb_direct.net
+schematic: C:/Users/seiji/Seafile/PTS06_2024_8/Op8_22/op8_22_tb_direct.asc
